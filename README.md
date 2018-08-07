@@ -4,7 +4,7 @@ Info about my use vim
 ```
 C:\Program Files\Vim\_vimrc
 ```
-# utf 8 in Windows
+# utf8 in Windows
 append to _vimrc 
 ```
 set encoding=utf-8
@@ -25,3 +25,12 @@ now you see
 guifont=Lucida_Console:h9:cANSI:qDRAFT
 ```
 it is all about it
+
+# Python, move all left on 4 space
+```
+:%s/\(^.*\)/    \1/g
+```
+# Python, move lines 10-14 left on 4 space
+```
+:10,14s/\(^.*\)/    \1/g
+```
