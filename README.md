@@ -35,4 +35,6 @@ it is all about it
 :10,14s/\(^.*\)/    \1/g
 ```
 # how to enable the vi mode in the node repl
+```
 sudo apt update && sudo apt install rlwrap && echo 'alias node="env NODE_NO_READLINE=1 rlwrap node"'>>\~/.bashrc && echo 'set editing-mode vi'>>\~/.inputrc
+```
