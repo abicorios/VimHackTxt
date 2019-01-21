@@ -54,6 +54,6 @@ echo 'export EDITOR=vim'>>~/.bashrc
 ```
 in the mc main menu
 ```
-Options->Configuration->unselect 'Use internal edit'->
+Options->Configuration->unselect 'Use internal edit'->Ok
 ```
 open the vim by F4 or open the inernal view by F3
