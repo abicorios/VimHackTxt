@@ -47,3 +47,13 @@ in the bash console
 ```
 echo 'set editing-mode vi'>>~/.inputrc && echo "require 'irb/completion'">>~/.irbrc'
 ```
+# how to enable vim editor inside the mc
+in the bash console 
+```
+echo 'export EDITOR=vim'>>~/.bashrc
+```
+in the mc main menu
+```
+Options->Configuration->unselect 'Use internal edit'->
+```
+open the vim by F4 or open the inernal view by F3
