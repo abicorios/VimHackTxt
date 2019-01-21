@@ -38,3 +38,7 @@ it is all about it
 ```
 sudo apt update && sudo apt install rlwrap && echo 'alias node="env NODE_NO_READLINE=1 rlwrap node"'>>~/.bashrc && echo 'set editing-mode vi'>>~/.inputrc
 ```
+# how to enable the vi mode and the tab completion in the irb
+```
+echo 'set editing-mode vi'>>~/.inputrc && echo "require 'irb/completion'">>~/.irbrc'
+```
