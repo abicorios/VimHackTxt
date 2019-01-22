@@ -59,5 +59,5 @@ Options->Configuration->unselect 'Use internal edit'->Ok
 open the vim by F4 or open the inernal view by F3
 # tmp
 ```
-mkdir ~/bin && cd ~/bin && npm i readline-vim && echo '#!/usr/bin/env node'>nodev && cat node_modules/readline-vim/examples/repl.js>>nodev && sed -i.bak 's/\.\./readline-vim/' nodev && chmod +x nodev && echo 'export PATH=$PATH:$HOME/bin'>>~/.bashrc
+mkdir ~/bin && cd ~/bin && npm i readline-vim && echo '#!/usr/bin/env node'>nodev && cat node_modules/readline-vim/examples/repl.js>>nodev && sed -i.bak 's/\.\./readline-vim/; s/prompt:.*$/prompt: "> ",/' nodev && chmod +x nodev && echo 'export PATH=$PATH:$HOME/bin'>>~/.bashrc
 ```
