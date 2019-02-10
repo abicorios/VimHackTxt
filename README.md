@@ -45,7 +45,7 @@ sudo apt update && sudo apt install rlwrap && echo 'alias node="env NODE_NO_READ
 # how to enable the vi mode and the tab completion in the irb
 in the bash console
 ```
-echo 'set editing-mode vi' >> ~/.inputrc && echo "require 'irb/completion'" >> ~/.irbrc'
+echo 'set editing-mode vi' >> ~/.inputrc && echo "require 'irb/completion'" >> ~/.irbrc
 ```
 # how to enable vim editor inside the mc
 in the bash console 
