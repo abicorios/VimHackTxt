@@ -47,6 +47,10 @@ in the bash console
 ```
 echo 'set editing-mode vi' >> ~/.inputrc && echo "require 'irb/completion'" >> ~/.irbrc
 ```
+# how to enable the vi mode in the ghci
+```
+echo 'editMode: Vi' >> ~/.haskeline
+```
 # how to enable vim editor inside the mc
 in the bash console 
 ```
