@@ -37,6 +37,10 @@ in the vim
 ```
 :10,14s/\(^.*\)/    \1/g
 ```
+# how to enable the vi mode in the mysql console client
+```
+echo 'bind -v' >> ~/.editrc
+```
 # how to enable the vi mode in the node repl
 in the bash console
 ```
