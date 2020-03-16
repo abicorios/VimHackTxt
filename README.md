@@ -39,7 +39,7 @@ in the vim
 ```
 # how to enable the vi mode in the mysql console client
 ```
-echo 'bind -v' >> ~/.editrc
+echo 'bind -v' >> ~/.editrc && echo 'set editing-mode vi' >> ~/.inputrc
 ```
 # how to enable the vi mode in the node repl
 in the bash console
