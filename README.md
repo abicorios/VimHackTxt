@@ -30,12 +30,12 @@ it is all about it
 # Python, move all right on 4 space
 in the vim
 ```
-:%s/\(^.*\)/    \1/g
+:%s/^/    /g
 ```
 # Python, move lines 10-14 right on 4 space
 in the vim
 ```
-:10,14s/\(^.*\)/    \1/g
+:10,14s/^/    /g
 ```
 # how to enable the vi mode in the mysql console client
 ```
