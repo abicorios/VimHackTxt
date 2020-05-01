@@ -27,12 +27,12 @@ guifont=Lucida_Console:h9:cANSI:qDRAFT
 ```
 it is all about it
 
-# Python, move all left on 4 space
+# Python, move all right on 4 space
 in the vim
 ```
 :%s/\(^.*\)/    \1/g
 ```
-# Python, move lines 10-14 left on 4 space
+# Python, move lines 10-14 right on 4 space
 in the vim
 ```
 :10,14s/\(^.*\)/    \1/g
